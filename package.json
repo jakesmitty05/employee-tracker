@@ -1,20 +1,20 @@
 {
-    "name": "main",
-    "version": "1.0.0",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "description": "",
-    "dependencies": {
-      "express": "^4.17.1",
-      "mysql2": "^2.2.5",
-      "dotenv": "^8.2.0",
-      "inquirer": "^8.2.4"
-    }
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Command-line application to manage a company's employees using node, inquirer, and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.2.5"
   }
-  
+}
+
